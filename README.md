@@ -33,9 +33,20 @@
 - 環境：Azure(PaaS), AWS(IaaS), GCP(PaaS), オンプレミス環境
 - DB：Azure Cosmos DB, SQL Database, MySQL, Redis, Azure Table Storage
 
+# 著書
+- [Azureテクノロジ入門2019](https://www.amazon.co.jp/dp/4822253856)
+- [Azureテクノロジ入門2018](https://www.amazon.co.jp/dp/4822253635)
+
 # お問い合わせ
 
 貢献できるお仕事がありましたら、[こちら](https://share.hsforms.com/7245649/48750610-d4f1-4e18-8263-8b55389e22d0)からお問い合わせください。
+
+# 会社情報
+- 会社名：合同会社もりたつ技商
+- 所在地：東京都港区浜松町2丁目2番15号 浜松町ダイヤビル2F
+- 代表：久森達郎
+- 設立：2020年3月16日
+- 事業内容：サービス・システム開発の設計開発にかかわる業務支援及びコンサルティング
 
 ---
 Moritaz Tech &amp; Biz
