@@ -30,7 +30,7 @@
 ## 理解のあるツール、言語等
 - ツール：Visual Studio, VSCode, Android Studio, Unity, GitHub, Azure DevOps, Docker
 - 言語：C#(.NET Core), Perl, PHP, Java(Android), JavaScript(Node.js)
-- 環境：Azure(PaaS), AWS(IaaS), GCP(PaaS), オンプレミス環境
+- 環境：Azure(PaaS), AWS(IaaS), GCP/Firebase(PaaS), オンプレミス環境
 - DB：Azure Cosmos DB, SQL Database, MySQL, Redis, Azure Table Storage
 
 # 著書
