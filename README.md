@@ -27,10 +27,10 @@
 - また、CTOやテックリードに相当する方に対して組織やサービス、技術者の採用、技術選定に関する壁打ち相手としての貢献ができます
 
 ## 理解のあるツール、言語等
-- ツール：Visual Studio, VSCode, Android Studio, Unity, GitHub, Azure DevOps, Docker
-- 言語：C#(.NET Core), Perl, PHP, Java(Android), JavaScript(Node.js)
-- 環境：Azure(PaaS), AWS(IaaS), GCP/Firebase(PaaS), オンプレミス環境
-- DB：Azure Cosmos DB, SQL Database, MySQL, Redis, Azure Table Storage
+- ツール：VSCode, Android Studio, Unity, Visual Studio, GitHub, Azure DevOps, Docker, Kubernetes
+- 言語：C#(.NET Core), Golang, Perl, PHP, Java(Android), JavaScript(Node.js)
+- 環境：GCP/Firebase, Azure, AWS, オンプレミス環境
+- DB：Cloud SQL, Azure Cosmos DB, SQL Database, MySQL, Redis, Azure Table Storage, Cloud Firestore
 
 # 著書
 - [Azureテクノロジ入門2019](https://www.amazon.co.jp/dp/4822253856)
