@@ -32,9 +32,10 @@
 - 環境：GCP/Firebase, Azure, AWS, オンプレミス環境
 - DB：Cloud SQL, Azure Cosmos DB, SQL Database, MySQL, Redis, Azure Table Storage, Cloud Firestore
 
-# 著書
+# 著書・寄稿等
 - [Azureテクノロジ入門2019](https://www.amazon.co.jp/dp/4822253856)
 - [Azureテクノロジ入門2018](https://www.amazon.co.jp/dp/4822253635)
+- [Software Design 2021年12月号](https://gihyo.jp/magazine/SD/archive/2021/202112) 連載 リアルタイム通信アプリを支える技術
 
 # 取引銀行
 - 三菱UFJ銀行
