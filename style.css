@@ -1,0 +1,794 @@
+@charset "UTF-8";
+
+html {
+    font-size: 80%;
+}
+
+
+body {
+    font-size: 1.2rem;
+    font-family: Kozuka Gothic Pr6N R;
+    background-color: #fff;
+    color: #231815;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+/*---------------------
+全体
+---------------------*/
+@media screen and (min-width:768px) {
+
+    .main-wrapper {
+        max-width: 1920px;
+        height: 768px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./img/back_2.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+    }
+
+/*---------------------
+メインビジュアル
+---------------------*/
+
+
+    .logo {
+        align-items: center;
+        max-width: 1080px;
+        max-height: 120px;
+        position: relative;
+        bottom: 140px;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.2em;
+        line-height: 2;
+        position: relative;
+        bottom: 80px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .title1 {
+        display: none;
+    }
+
+    .title2 {
+        display: none;
+    }
+}
+
+
+
+/*---------------------
+サービス紹介
+---------------------*/
+
+.service-list1 {
+    max-width: 1080px;
+    display: flex;
+    margin: -20px auto;
+    justify-content: space-between;
+}
+
+.service-list2 {
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.service-images {
+    margin-bottom: 20px;
+}
+
+.service-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.more {
+    margin-bottom: 20px;
+}
+
+.service-item {
+    margin: 0 20px 30px;
+}
+
+
+/*---------------------
+4サービス詳細PC
+---------------------*/
+@media screen and (min-width:768px) {
+    .detail-item {
+        margin: 200px auto 30px;
+    }
+
+    .ditail-img-wrapper {
+        margin: 30px auto 0;
+    }
+
+    .ditail-text-title {
+        margin: 75px auto ;
+        font-size: 24px;
+        letter-spacing: 0.1em;
+        line-height: 1.8;
+        font-weight: bold;
+        border-bottom: 2px solid #231815;
+        padding-bottom: 60px;
+        max-width: 1400px
+    }
+
+    .ditail-text {
+        margin: 75px auto;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        line-height: 2;
+        width: 1400px
+    }
+
+    .box {
+        max-width: 1400px;
+        text-align: center;
+        display: block;
+        position: relative;
+        margin-top: 2em ;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 10px 7px;
+        background: #ffffff;
+        border: solid 2px #930012;
+    }
+
+    .box .box-title {
+        font-size: 1.4em;
+        background: #930012;
+        padding: 8px;
+        text-align: center;
+        color: #FFF;
+        letter-spacing: 0.3em;
+    }
+
+    .box p {
+        padding: 30px 20px;
+        margin: 0;
+        color: #930012;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+
+}
+/*---------------------
+4サービス詳細SP
+---------------------*/
+
+@media screen and (max-width:768px) {
+    .ditail-text-title {
+        margin: 20px auto;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        line-height: 1.8;
+        font-weight: bold;
+        border-bottom: 2px solid #231815;
+        padding-bottom: 15px;
+        width: 332px;
+        
+    }
+
+    .ditail-text {
+        margin: 20px auto;
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        line-height: 2;
+        width: 332px;
+    }
+
+    .box {
+        max-width: 338px;
+        text-align: center;
+        margin: 2em 0;
+        padding: 5px;
+        background: #ffffff;
+        border: solid 1px #930012;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box .box-title {
+        font-size: 18px;
+        background: #930012;
+        padding: 10px ;
+        text-align: center;
+        color: #FFF;
+        letter-spacing: 0.3em;
+    }
+
+    .box p {
+        padding: 40px 10px;
+        margin: 0;
+        color: #930012;
+        font-size: 16px;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+}
+
+/*---------------------
+取扱領域PC
+---------------------*/
+@media screen and (min-width:768px) {
+
+    .business-areas-wrapper {
+        max-width: 1920px;
+        height: 1177px;
+        background-color: #e6e6e7;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .area-title-wrap {
+       text-align: center;
+       
+    }
+    .area-title-en {
+        color: #930012;        
+        font-size: 30px;
+        letter-spacing: 0.2em;
+        width: auto;
+        font-weight: bold;
+        padding-top: 160px;
+        padding-bottom: 10px;
+    }
+
+    .area-title-ja {
+        color: #930012;        
+        font-size: 20px;
+        letter-spacing: 0.4em;
+        width: auto;
+        padding-bottom: 15px;
+    }
+
+    .main-list-item {
+        display: flex;
+        border: 2px solid #930012;
+        width: 680px;
+        height: 160px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+    
+
+    .main-list-item h3 {
+        margin: 50px 50px;
+        color: #930012;        
+        font-size: 30px;
+        font-weight: bold;
+        width: auto;
+        border-bottom: 2px solid #930012;
+    }
+
+    .main-list1 {
+        display: flex;
+        padding: 0 40px;
+    }
+
+    .main-list2 {
+        display: flex;
+        padding: 0 40px;
+    }
+
+    .main-list1 .inner {
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        color: #930012;
+        margin: auto 30px auto 30px;
+    }
+    .main-list2 .inner {
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        color: #930012;
+        margin: auto 30px auto 30px;
+    }
+}
+/*---------------------
+取扱領域SP
+---------------------*/
+@media screen and (max-width:768px) {
+    .business-areas-wrapper {
+        width: auto;
+        height: 485px;
+        background-color: #e6e6e7;
+    }
+
+    .area-title-wrap {
+       text-align: center;
+    }
+    .area-title-en {
+        color: #930012;        
+        font-size: 24px;
+        letter-spacing: 0.1em;
+        width: auto;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .area-title-ja {
+        color: #930012;        
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        width: auto;
+        padding-bottom: 15px;
+    }
+
+    .main-list-item {
+        display: flex;
+        border: 1px solid #930012;
+        margin: 10px 10px;
+        width: 332px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+    
+
+    .main-list-item h3 {
+        margin: 15px;
+        color: #930012;        
+        font-size: 16px;
+        border-bottom: 1px solid #930012;
+    }
+
+    .main-list1 {
+        display: block;
+       
+    }
+
+    .main-list2 {
+        display: block;
+    }
+   
+
+    .main-list1 .inner {
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        color: #930012;
+        margin: 5px;
+    }
+    .main-list2 .inner {
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        color: #930012;
+        margin: 5px;
+    }
+
+    
+
+}
+
+
+
+/*---------------------
+お問い合わせボタン
+---------------------*/
+@media screen and (min-width:768px) {
+
+    .contact {
+        max-width: 1400px;
+        margin: auto;
+        padding: 50px;
+        display: block;
+    }
+
+    .contact-text {
+        text-align: center;
+        margin: 130px auto 20px;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .sp2 img {
+        width: 332px;
+        padding: 20px
+    }
+
+    .contact {
+        margin: 30px;
+        background-color: #e6e6e7;
+    }
+
+    .contact-text {
+        width: 332px;
+        margin: 10px auto;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+    }
+}
+
+/*---------------------
+私たちについてPC
+---------------------*/
+
+@media screen and (min-width:768px) {
+    .about-contents {   
+        height: 1782px;
+        background-image: url(./img/PCbackgroundred.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .AC-sub {
+        background-color: #e6e6e7;
+    }
+
+    .president-box {
+        max-width: 1400px;
+        height: 383px;   
+        background: #fff;
+        border-radius: 6px;
+        position: absolute;
+        top: 180px;
+        right: 0;
+        bottom: 0;
+        left:0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texts {
+        display: table-cell;
+        vertical-align: middle;
+        padding-top: 70px;
+     }
+
+    .president-box img {
+        width: 292px;
+        height: 292px;
+        float: left;
+        margin: 40px 45px;
+    }
+
+    .name {
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        text-align: left;
+    }
+
+    .name1 {
+        margin: 20px;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        text-align: center;
+    }
+
+    .name-text {
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .books {
+        width: 670px;
+        height: 295px;   
+        background: #fff;
+        border-radius: 6px;
+        margin-left: 11rem;
+        margin-right: auto;
+        position: absolute;
+        top: 607px;
+        right: auto;
+        left: 0;
+        bottom: auto;
+    }
+    .texts2 {
+       text-align: center;
+       margin-top: 30px;
+      }
+    
+    .books-list {
+        font-size: 16px;
+        color: #930012;
+        letter-spacing: 0.1em;
+        line-height: 2;
+        margin: 30px;
+    }
+
+    .bank {
+        width: 670px;
+        height: 260px;   
+        background: #fff;
+        border-radius: 6px;
+        margin-left: 11rem;
+        margin-right: auto;
+        position: absolute;
+        top: 947px;
+        right: auto;
+        left: 0;
+        bottom: auto;
+    }
+
+    .bank-list-wrap {
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        line-height: 2;
+        margin: 70px ;
+        display: flex;
+        justify-content: space-between;
+}
+.map1 {
+    width: 675px;
+    height: 600px;   
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 607px;
+    right: 0;
+    bottom: 0;
+    left:auto;
+    margin-left: auto;
+    margin-right: 11rem;
+}
+.map-image {
+    max-width: 580px;
+    height: 438px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.pc3 {
+    width: 1400px;
+    position: relative;
+    bottom: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+
+/*---------------------
+    私たちについてSP
+---------------------*/
+@media screen and (max-width:768px) {
+    .about-contents {
+        background-image: url(./img/backgroundred.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 980px;
+        background-color: #e6e6e7;
+        position: relative;
+
+    }
+    .AC-sub {
+        background-color: #e6e6e7;
+    }
+    .president-box {
+        max-width: 332px;
+        height: fit-content;   
+        background: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        left: 0;
+        bottom: 20px;
+
+    }
+    .texts {
+        text-align: center;
+       margin-top: 20px;
+     }
+
+    .president-box img {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: -30px;
+        right: -10px;
+        left: auto;
+        bottom: auto;
+    }
+
+    .name {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        text-align: center;
+    }
+
+    .name1 {
+        font-size: 14px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .name-text {
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        line-height: 1.5;
+        text-align: left;
+        margin: 20px;
+    }
+
+    .books {
+        max-width: 331px;
+        height: 152px;   
+        background: #fff;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 330px;
+        right: 0;
+        left: 0;
+        bottom: auto;
+    }
+    
+    .texts2 {
+       text-align: center;
+       margin: 20px;
+      }
+    
+    .books-list {
+        font-size: 10px;
+        color: #930012;
+        letter-spacing: 0.1em;
+        line-height: 2;
+        margin: 10px;
+    }
+
+    .bank {
+        max-width: 331px;
+        height: 86px;   
+        background: #fff;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 490px;
+        right: 0;
+        left: 0;
+        bottom: auto;
+    }
+
+    .bank-list-wrap {
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        margin: 20px ;
+        display: flex;
+        justify-content: space-between;
+}
+.map1 {
+    max-width: 331px;
+    height: 270px;   
+    background: #fff;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+        top: 595px;
+        right: 0;
+        left: 0;
+        bottom: auto;
+}
+.map-image {
+    max-width: 254px;
+    height: 192px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+    .pc3 {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+
+
+    /*---------------------
+    メインビジュアルSP
+    ---------------------*/
+    .main-wrapper {
+        background-image: url(./img/SPmain_2.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .main-content {
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .title1 {
+        color: #930012;
+        font-size: 24px;
+        letter-spacing: 0.3em;
+        padding-bottom: 5px;
+    }
+
+    .title2 {
+        color: #930012;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0.3em;
+        padding-bottom: 35px;
+    }
+
+    .title12 h2 {
+        text-align: center;
+    }
+
+    .logo {
+        width: 315px;
+        height: 31px;
+        margin-top: 40px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+        line-height: 2.5;
+        letter-spacing: 1px;
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .service-list1 {
+        display: block;
+    }
+
+    .service-list2 {
+        display: block;
+
+    }
+}
+
